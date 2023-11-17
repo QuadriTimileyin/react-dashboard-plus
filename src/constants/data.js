@@ -7,29 +7,29 @@ const data = {
     },
     summary: [
         {
-            title: 'Sales',
-            subtitle: 'Total sales today',
+            title: 'Notifications',
+            subtitle: 'Amount of Unread Notifications',
             value: '₦1.000',
             percent: 70
         },
         {
-            title: 'Orders',
-            subtitle: 'Total orders today',
+            title: 'Videos',
+            subtitle: 'Amount of Videos',
             value: '3000',
             percent: 49
         },
         {
-            title: 'Revenue',
-            subtitle: 'Total revenue today',
+            title: 'Cameras',
+            subtitle: 'Location of deployed cameras',
             value: '₦678',
             percent: 78
         },
-        {
-            title: 'Visits',
-            subtitle: 'Total visits today',
-            value: '2345',
-            percent: 55
-        }
+        // {
+        //     title: 'Visits',
+        //     subtitle: 'Total visits today',
+        //     value: '2345',
+        //     percent: 55
+        // }
     ],
     revenueSummary: {
         title: 'Revenue',

@@ -25,7 +25,7 @@ function App() {
                  <Route path="/profile" element={<Blank />} />
                  <Route path="/customers" element={<Blank />} />
                  <Route path="/settings" element={<Blank />} />
-                 <Route path="/stats" element={<Blank />} />
+                 <Route path="/notifications" element={<Blank />} />
                    
                 </Route>
             </Routes>

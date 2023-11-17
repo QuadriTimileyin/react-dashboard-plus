@@ -34,9 +34,9 @@ const SummaryBox = ({ item }) => {
                         <div>{item.title}</div>
                         <span>{item.subtitle}</span>
                     </div>
-                    <div className="summary-box__info__value">
+                    {/* <div className="summary-box__info__value">
                         {item.value}
-                    </div>
+                    </div> */}
                 </div>
                 <div className="summary-box__chart">
                     <CircularProgressbarWithChildren
@@ -49,7 +49,7 @@ const SummaryBox = ({ item }) => {
                         })}
                     >
                         <div className="summary-box__chart__value">
-                            {item.percent}%
+                            {item.percent}
                         </div>
                     </CircularProgressbarWithChildren>
                 </div>
